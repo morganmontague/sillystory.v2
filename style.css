@@ -1,6 +1,7 @@
 body {
     font-family: helvetica, sans-serif;
     width: 350px;
+    background-color: lightblue;
   }
   label {
     font-weight: bold;  
@@ -18,4 +19,3 @@ body {
     padding: 10px;
     visibility: hidden;
   }
-</style>
