@@ -3,6 +3,10 @@ body {
     width: 350px;
     background-color: lightblue;
   }
+main{
+    display: grid;
+    justify-items: center
+}
   label {
     font-weight: bold;  
   }
