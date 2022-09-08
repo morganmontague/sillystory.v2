@@ -30,7 +30,7 @@ randomize.addEventListener('click', result);
 
 function result() {
   // adding new variables
-  var newStory = storyText;
+  let newStory = storyText;
   const xItem = randomValueFromArray(insertx);
   const yItem = randomValueFromArray(inserty);
   const zItem = randomValueFromArray(insertz);
