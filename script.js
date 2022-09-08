@@ -30,18 +30,18 @@ randomize.addEventListener('click', result);
 
 function result() {
   // adding new variables
-  var newStory = storyText;
+  let newStory = storyText;
   const xItem = randomValueFromArray(insertx);
   const yItem = randomValueFromArray(inserty);
   const zItem = randomValueFromArray(insertz);
   
   // changing the story yo
 
-  var newStory = newStory.replace('insertx', xItem);
-  var newStory = newStory.replace('inserty', yItem);
-  var newStory = newStory.replace('insertz', zItem);
+  let newStory = newStory.replace('insertx', xItem);
+  let newStory = newStory.replace('inserty', yItem);
+  let newStory = newStory.replace('insertz', zItem);
   // added insertxx to the string to help replace both insertx instances
-  var newStory = newStory.replace('insertxx', xItem);
+  let newStory = newStory.replace('insertxx', xItem);
   
   
   if(customName.value !== '') {
