@@ -1,5 +1,3 @@
-console.log('ran');
-
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
@@ -10,39 +8,34 @@ function randomValueFromArray(array){
 }
 
 
-// const storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.'
-
-
 const insertx = [
-'Willy the Goblin',
-'Big Daddy',
-'Father Christmas']
+'Billy the Goblin',
+'Big Mom',
+'Elfo']
 
 const inserty = [
-'the soup kitchen',
-'Disneyland',
-'the White House']
+'the big party',
+'Dreamland',
+'the Big House']
 
 const insertz = [
 'spontaneously combusted',
-'melted into a puddle on the sidewalk',
+'personal demon Luci got you arrested',
 'turned into a slug and crawled away']
 
 
 const storyText = 'It was 94 farenheit outside, so insertx went for a walk. When they got to inserty, they stared in horror for a few moments, then insertz. Bob saw the whole thing, but was not surprised — insertxx weighs 300 pounds, and it was a hot day.';
 
-// console.log(storyText)
-
 randomize.addEventListener('click', result);
 
 function result() {
-  // add new variables
+  // adding new variables
   var newStory = storyText;
   const xItem = randomValueFromArray(insertx);
   const yItem = randomValueFromArray(inserty);
   const zItem = randomValueFromArray(insertz);
   
-  // changing the story
+  // changing the story yo
 
   var newStory = newStory.replace('insertx', xItem);
   var newStory = newStory.replace('inserty', yItem);
