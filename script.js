@@ -37,11 +37,11 @@ function result() {
   
   // changing the story yo
 
-  let newStory = newStory.replace('insertx', xItem);
-  let newStory = newStory.replace('inserty', yItem);
-  let newStory = newStory.replace('insertz', zItem);
+  var newStory = newStory.replace('insertx', xItem);
+  var newStory = newStory.replace('inserty', yItem);
+  var newStory = newStory.replace('insertz', zItem);
   // added insertxx to the string to help replace both insertx instances
-  let newStory = newStory.replace('insertxx', xItem);
+  var newStory = newStory.replace('insertxx', xItem);
   
   
   if(customName.value !== '') {
